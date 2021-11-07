@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular precio.</title>
+</head>
+<body>
+    <h6>Taller practico de Javascript</h6>
+    <h1>CALCULAR PRECIO CON CUPON DESCUENTO</h1>
+    <!--LISTA SOLO DE EJEMPLO, LISTA EN FORMA DE VARIABLES LADO BACKEND.-->
+    <h3>cuponA = 10% descuento</h3>
+    <h3>cuponB = 20% descuento</h3>
+    <h3>cuponC = 30% descuento</h3>
+    <section>
+        <form>
+            <label for="PrecioIngresado">Ingresar Precio:</label>
+            <input id="PrecioIngresado" type="number">
+            <label for="CuponIngresado">Ingresar Cupon de descuento:</label>
+            <input id="CuponIngresado" type="text">
+            <button type="button" onclick="botonCalcularPrecioPagar()">Calcular Precio.</button>
+            <p id="PrecioFinal"></p>
+        </form>
+    </section>
+    <script src="./descuentos.js"></script>
+</body>
+</html>
